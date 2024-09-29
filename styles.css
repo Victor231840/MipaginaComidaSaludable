@@ -1,0 +1,117 @@
+body{
+    font-family: cursive ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    background: url(resources/image4.jpg);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+header{
+    background-color: rgb(21, 136, 136);
+    padding: 10px 0;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 20;
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    gap: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+.gallery-table{
+    text-align: center;
+    font-family:cursive;
+    margin: 30px;
+    width: 10%;
+    height: 10%;
+
+
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.gallery-table td{
+padding: 50px ;
+text-align: center
+
+}
+footer{
+    background-color: #158660;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.contact-form{
+    background-color: transparent;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+}
+h1{
+    color: rgb(21, 126, 39);
+}
+.card{
+    width: 30%;
+    margin: 10px;
+    border-radius: 2%;
+    overflow: hidden;
+    object-fit: cover; height: 2%;
+}
+.card-body{
+    padding: 5%;
+}
+.no-space{
+    line-height: 1;
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    }
+.product {
+    text-align: center;
+    margin: 0 10px;
+    width: 150px;
+    }
+.product img {
+    width: 100%;
+    height: auto;
+    }
+.product h5 {
+    margin: 5px 0;
+    }
+.product p {
+    margin: 0;
+    padding: 0;
+    }
+.product-price {
+    font-weight: bold;
+    margin: 5px 0;
+    }
+
+
+
+
+
+
